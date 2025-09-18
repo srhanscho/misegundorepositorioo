@@ -1,8 +1,7 @@
 
-sebastian=str(input("Quien eres: "))
-while True:
-    if sebastian == "Sebastian" or "sebastian":
-        print("Puede Pasar")
-        break
-    else:
-        print("IMPOSTOR❌❌❌❌❌❌❌❌ \n ACCESO DENEGADO")
+nombre = input("¿Quién eres?: ")
+
+if nombre.lower() == "sebastian":
+    print("✅ Puede pasar")
+else:
+    print("IMPOSTOR ❌❌❌❌❌❌❌❌\nACCESO DENEGADO")
