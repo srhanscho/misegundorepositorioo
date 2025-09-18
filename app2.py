@@ -1,5 +1,5 @@
-print("Sabroso soy")
-sebastian=str(input("Quien eres"))
+
+sebastian=str(input("Quien eres: "))
 while True:
     if sebastian == "Sebastian" or "sebastian":
         print("Puede Pasar")
